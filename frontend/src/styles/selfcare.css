@@ -1,0 +1,78 @@
+body {
+    background-color: #fdf6f9;
+    font-family: 'Segoe UI', 'Quicksand', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 850px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+  }
+  
+  .section {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+  }
+  
+  h2, h3, h4 {
+    color: #6b4e71;
+  }
+  
+  .button {
+    background-color: #b290d4;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #8e70b7;
+  }
+  
+  .card {
+    background-color: #faf9fc;
+    border-radius: 12px;
+    padding: 1rem;
+    margin-top: 1rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  }
+  
+  input[type="file"],
+  textarea {
+    display: block;
+    margin-top: 0.5rem;
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-family: inherit;
+  }
+  
+  .spark-points-popup {
+    position: fixed;
+    top: 60px;
+    right: 30px;
+    font-size: 1.8rem;
+    color: #fca311;
+    font-weight: bold;
+    animation: floatUp 1.2s ease-out forwards;
+    z-index: 1000;
+  }
+  
+  @keyframes floatUp {
+    0% { opacity: 0; transform: translateY(20px); }
+    30% { opacity: 1; transform: translateY(0); }
+    100% { opacity: 0; transform: translateY(-20px); }
+  }
+  
