@@ -27,7 +27,7 @@ A self-care and reflection tracking app where users log reflections, earn Spark 
 ## ⚙️ 1. Setup
 
 ```bash
-git clone https://github.com/yourusername/solo-sparks.git
+git clone https://github.com/saurav-wankhade/solo-sparks.git
 cd solo-sparks
 ```
 
